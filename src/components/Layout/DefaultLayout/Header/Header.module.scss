@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 var(--default-layout-horizontal-spacer);
 }
 .action {
     display: flex;
@@ -88,4 +89,5 @@
     margin-left: 24px;
     padding: 8px;
     background-color: transparent;
+    cursor: pointer;
 }
